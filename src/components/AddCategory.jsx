@@ -20,6 +20,7 @@ const AddCategory = ( {onNewCategory}) => {
   return (
     <form onSubmit={ (event) => onSubmit(event)}>
       <input
+        className="form-control"
         type="text"
         placeholder="Buscar gifs"
         value={inputValue}
